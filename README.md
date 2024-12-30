@@ -1,4 +1,26 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Bainaryglobe Web
+
+This is a fullstack web application built with Next.js and Prisma.
+
+## Setup
+
+1. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+2. Initialize Prisma:
+
+   ```bash
+   npx prisma migrate dev --name init
+   ```
+
+3. Run the development server:
+
+   ```bash
+   npm run dev
+   ```
 
 ## Getting Started
 
